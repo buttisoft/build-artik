@@ -1,3 +1,17 @@
+# ARTIK Build system customized fr BluTech board 
+## (at the end of file the original version of this readme)
+
+The main difference is related to cfg files; to make the image for BluTech
+board the command will be:
+
+	./release.sh -c config/artik530_ubuntu_blutech.cfg -m
+
+to test with external MicroSD card or
+
+	./release.sh -c config/artik530_ubuntu_blutech.cfg
+
+to create a MicroSD able to reflash internal Artik sd.
+
 # ARTIK Build system
 ## Contents
 1. [Introduction](#1-introduction)
